@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Snake Maze</title>
+</head>
+<body>       
+    <div class="main-div">
+        <div class="point">
+            <h1 style="text-align: center;color: pink;" id="score">Score : 0</h1>
+        </div>
+        <div class="snake-board">
+            <div class="mid-grid" id="mid-grid-id">
+                <!-- <div id="a" class="grid-box" onclick="gridCellClk(this.id)" onmouseover="gridMouseOver(this.id)"> </div> -->
+                 <div id="a" class="grid-box"> </div>
+           </div>
+        </div>
+    </div>
+    <div class="game-over" id="game-over">Game Over</div>
+    <script src="script.js"></script>
+    <script src="gameBoard.js"></script>
+</body>
+</html>

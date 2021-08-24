@@ -1,0 +1,55 @@
+.snake-board{
+    width: 100%;
+}
+.mid-grid{
+    display: grid;
+    grid-template-columns:17px 17px 17px 17px 17px 17px 17px 17px 17px 17px 17px 17px 17px 17px 17px 17px 17px 17px 17px 17px 17px 17px 17px 17px 17px 17px 17px 17px 17px 17px 17px 17px 17px 17px 17px 17px 17px 17px 17px 17px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding: 0px;
+    width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: rgba(0,0,0,0.1);
+    border-style: solid;
+    border-color: transparent;
+    box-shadow: 0px 4px 4px 15px thistle;
+    border-radius: 1%;
+}
+.grid-box{
+    height: 15px;
+    width: 15px;
+    background-color: transparent;
+    border-color: transparent;
+    border-style: solid;
+    border-width: .5px;
+    margin-top: 0px;
+    padding: 0px;
+    border-radius: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+-moz-border-radius: 100px / 50px;
+-webkit-border-radius: 100px / 50px;
+border-radius: 100px / 50px;
+margin: auto;
+text-align: center;
+color: white;
+
+}
+#a{
+    display: none;
+}
+
+.game-over{
+    position: fixed;
+    margin-left: 45%;
+    margin-top: -17%;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(206, 117, 117);
+    box-shadow: 0px 5px 0px 2px thistle;
+    transform: scale(1.4);
+    z-index: 999;
+    display: none;
+}
